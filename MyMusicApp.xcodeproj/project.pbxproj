@@ -14,6 +14,7 @@
 		F35470C329729A1E00213A76 /* MyMusicAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35470C229729A1E00213A76 /* MyMusicAppTests.swift */; };
 		F35470CD29729A1E00213A76 /* MyMusicAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35470CC29729A1E00213A76 /* MyMusicAppUITests.swift */; };
 		F35470CF29729A1E00213A76 /* MyMusicAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35470CE29729A1E00213A76 /* MyMusicAppUITestsLaunchTests.swift */; };
+		F35470DC2972C60A00213A76 /* SoundPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35470DB2972C60A00213A76 /* SoundPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		F35470C829729A1E00213A76 /* MyMusicAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMusicAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35470CC29729A1E00213A76 /* MyMusicAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicAppUITests.swift; sourceTree = "<group>"; };
 		F35470CE29729A1E00213A76 /* MyMusicAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F35470DB2972C60A00213A76 /* SoundPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				F35470B029729A1C00213A76 /* MyMusicAppApp.swift */,
 				F35470B229729A1C00213A76 /* ContentView.swift */,
+				F35470DB2972C60A00213A76 /* SoundPlayer.swift */,
 				F35470B429729A1E00213A76 /* Assets.xcassets */,
 				F35470B629729A1E00213A76 /* MyMusicApp.entitlements */,
 				F35470B729729A1E00213A76 /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F35470B329729A1C00213A76 /* ContentView.swift in Sources */,
+				F35470DC2972C60A00213A76 /* SoundPlayer.swift in Sources */,
 				F35470B129729A1C00213A76 /* MyMusicAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
