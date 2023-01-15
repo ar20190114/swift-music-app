@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F32BED4D29739799002B9594 /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F32BED4C29739799002B9594 /* BackgroundView.swift */; };
 		F35470B129729A1C00213A76 /* MyMusicAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35470B029729A1C00213A76 /* MyMusicAppApp.swift */; };
 		F35470B329729A1C00213A76 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35470B229729A1C00213A76 /* ContentView.swift */; };
 		F35470B529729A1E00213A76 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F35470B429729A1E00213A76 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F32BED4C29739799002B9594 /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		F35470AD29729A1C00213A76 /* MyMusicApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMusicApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F35470B029729A1C00213A76 /* MyMusicAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyMusicAppApp.swift; sourceTree = "<group>"; };
 		F35470B229729A1C00213A76 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 			children = (
 				F35470B029729A1C00213A76 /* MyMusicAppApp.swift */,
 				F35470B229729A1C00213A76 /* ContentView.swift */,
+				F32BED4C29739799002B9594 /* BackgroundView.swift */,
 				F35470DB2972C60A00213A76 /* SoundPlayer.swift */,
 				F35470B429729A1E00213A76 /* Assets.xcassets */,
 				F35470B629729A1E00213A76 /* MyMusicApp.entitlements */,
@@ -264,6 +267,7 @@
 			files = (
 				F35470B329729A1C00213A76 /* ContentView.swift in Sources */,
 				F35470DC2972C60A00213A76 /* SoundPlayer.swift in Sources */,
+				F32BED4D29739799002B9594 /* BackgroundView.swift in Sources */,
 				F35470B129729A1C00213A76 /* MyMusicAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
